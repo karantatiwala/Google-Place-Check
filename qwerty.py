@@ -18,6 +18,7 @@ def places(lati, longi):
 	# print places["results"][0]["geometry"]
 	# for i in places:
 	print len(places)
+	print places
 	for i in range(len(places)):
 		print places["results"][i]["name"]
 
