@@ -38,6 +38,7 @@ def location(address):
 	
 	places(lati, longi)
 
+# city name shoud be added here...
 address = raw_input("ENTER THE NAME OF THE CITY:  ")
 location(address)
 
